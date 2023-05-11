@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import App2 from "./App2";
+import App3 from "./App3";
 /*
   루트 노드
   React로 구현한 애플리케이션은 일반적으로 하나의 루트 DOM노드가 존재하며
@@ -21,7 +22,8 @@ import App2 from "./App2";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   //<App />
-  <App2 />
+  //<App2 />
+  <App3 />
 );
 /*
 
