@@ -76,6 +76,8 @@ class Shallow extends Component {
 
   /* 2. shallow-equal 테스트 */
   /*
+    npm install --save shallow-equal
+
     컴포넌트 라이프사이클 중 변경과 관련된 메서드
     반환값에 따라 컴포넌트 업데이트를 할지 말지 결정함
     (true반환시 render함수 호출, false반환시 render함수 미호출)
